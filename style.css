@@ -1,32 +1,3 @@
-/* Este estilo é aplicado à página inteira */
-body {
-    /* Define o tamanho da fonte padrão para o texto */
-    font-family: Arial, sans-serif;
-    /* Garante que o conteúdo da página ocupe toda a altura da tela */
-    margin: 0;
-    height: 100%;
-    /* Alinha o conteúdo ao centro vertical e horizontalmente */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f9; /* Cor de fundo clara para a página */
-}
-
-/* Estiliza o contêiner que envolve todo o conteúdo do formulário */
-.container {
-    /* Definindo uma largura máxima para o contêiner */
-    width: 100%;
-    max-width: 600px;
-    /* Adiciona padding para criar espaço interno */
-    padding: 20px;
-    /* Adiciona um fundo branco para destacar o conteúdo do formulário */
-    background-color: white;
-    /* Definindo bordas arredondadas */
-    border-radius: 10px;
-    /* Definindo uma leve sombra para dar profundidade */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
 /* O título da página (h1) será centralizado */
 h1 {
     text-align: center;
