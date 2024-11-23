@@ -14,12 +14,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     $quantidadeTotal = $quantidadePiso + $margem;
 
+    // ceil - Arredondando números para cima
     echo json_encode([
-        "areaComodo" => $areaComodo,
-        "areaPiso" => $areaPiso,
-        "quantidade" => $quantidadePiso,
-        "quantidadeMargem" => $margem,
-        "quantidadeTotal" => $quantidadeTotal
+        "areaComodo" => ceil($areaComodo),
+        "areaPiso" => ceil($areaPiso),
+        "quantidade" => ceil($quantidadePiso),
+        "quantidadeMargem" => ceil($margem),
+        "quantidadeTotal" => ceil($quantidadeTotal)
     ]);
 
 
