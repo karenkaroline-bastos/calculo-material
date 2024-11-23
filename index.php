@@ -56,29 +56,30 @@
         const comodoComprimento = document.getElementById("comodo-comprimento").value;
         const pisoLargura = document.getElementById("piso-largura").value;
         const pisoComprimento = document.getElementById("piso-comprimento").value;
+        const margem = document.getElementById("margem").value;
 
 
-        if(comodoLargura < 0){
+        if(comodoLargura <= 0){
             alert("A largura do comôdo deve ser maior que 0");
             return;
         }
 
-        if(comodoComprimento < 0){
+        if(comodoComprimento <= 0){
             alert("A comprimento do comôdo deve ser maior que 0");
             return;
         }
 
-        if(pisoLargura < 0){
+        if(pisoLargura <= 0){
             alert("A largura do piso deve ser maior que 0");
             return;
         }
 
-        if(pisoComprimento < 0){
+        if(pisoComprimento <= 0){
             alert("A comprimento do piso deve ser maior que 0");
             return;
         }
 
-        if(margem < 0){
+        if(margem <= 0){
             alert("A margem deve ser maior que 0");
             return;
         }
