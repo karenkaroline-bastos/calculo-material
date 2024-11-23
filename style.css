@@ -1,0 +1,110 @@
+/* Este estilo é aplicado à página inteira */
+body {
+    /* Define o tamanho da fonte padrão para o texto */
+    font-family: Arial, sans-serif;
+    /* Garante que o conteúdo da página ocupe toda a altura da tela */
+    margin: 0;
+    height: 100%;
+    /* Alinha o conteúdo ao centro vertical e horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9; /* Cor de fundo clara para a página */
+}
+
+/* Estiliza o contêiner que envolve todo o conteúdo do formulário */
+.container {
+    /* Definindo uma largura máxima para o contêiner */
+    width: 100%;
+    max-width: 600px;
+    /* Adiciona padding para criar espaço interno */
+    padding: 20px;
+    /* Adiciona um fundo branco para destacar o conteúdo do formulário */
+    background-color: white;
+    /* Definindo bordas arredondadas */
+    border-radius: 10px;
+    /* Definindo uma leve sombra para dar profundidade */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* O título da página (h1) será centralizado */
+h1 {
+    text-align: center;
+    /* Aumenta o tamanho da fonte do título */
+    font-size: 2em;
+    /* Espaço superior e inferior do título */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o campo de resultado */
+.resultado {
+    /* Cria um espaço entre os itens do resultado */
+    margin-top: 20px;
+    /* Fundo claro para o box de resultados */
+    background-color: #e9f7fe;
+    /* Adiciona bordas arredondadas */
+    border-radius: 8px;
+    /* Aplica uma leve sombra para destacar a área do resultado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Espaço interno (padding) para o conteúdo não grudar nas bordas */
+    padding: 20px;
+    /* Definindo uma largura fixa para que o resultado se ajuste corretamente */
+    width: 100%;
+}
+
+/* Estilo para os campos de entrada (input) */
+input[type="number"] {
+    /* Define o tamanho da borda dos campos */
+    border-radius: 5px;
+    /* Adiciona uma borda simples e sutil */
+    border: 1px solid #ccc;
+    /* Adiciona um padding para o texto não ficar muito perto das bordas */
+    padding: 10px;
+    width: 100%; /* Garante que os inputs ocupem toda a largura disponível */
+    /* Aumenta o tamanho da fonte para facilitar a leitura */
+    font-size: 1rem;
+}
+
+/* Estilo específico para os botões */
+button {
+    /* Define a cor do fundo do botão */
+    background-color: #007bff;
+    /* Define a cor da fonte do botão */
+    color: white;
+    /* Define a borda arredondada do botão */
+    border-radius: 5px;
+    /* Adiciona padding para aumentar o tamanho do botão */
+    padding: 12px 20px;
+    /* Remove a borda padrão do botão */
+    border: none;
+    /* O cursor fica em forma de mãozinha quando passa por cima do botão */
+    cursor: pointer;
+    /* Aplica uma sombra suave para dar destaque ao botão */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Alterações no botão quando o cursor passa por cima (hover) */
+button:hover {
+    /* Modifica a cor do fundo do botão ao passar o mouse sobre ele */
+    background-color: #0056b3;
+    /* Aplica uma sombra mais forte para um efeito de "pressão" */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para o campo de legendas (fildset) */
+fieldset {
+    border: none;
+    /* Adiciona margem inferior para separar as seções */
+    margin-bottom: 20px;
+}
+
+/* Estilo para o texto de legenda (legend) */
+legend {
+    font-size: 1.2em;
+    /* Alinha o texto da legenda ao centro */
+    text-align: center;
+    /* Adiciona uma linha abaixo da legenda */
+    border-bottom: 2px solid #007bff;
+    /* Adiciona um pouco de espaço ao redor da legenda */
+    padding-bottom: 10px;
+}
